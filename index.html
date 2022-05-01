@@ -69,14 +69,14 @@
 <img src= height=640px>
 </center>
 
-<h2>Initial Questions</h2>
+<h2>Questions</h2>
 
 <center>
-	<p> Question 1: Do some products have a better bang for their buck? \n
-	Question 2: Does the advertised amount of protein have an effect on rating?
-	</p></center>
+	<p>Question 1: Do some products have a better bang for their buck?</p>
+	<p>Question 2: Does the advertised amount of protein have an effect on rating?</p>
+</center>
 	
-<code>
+<pre><code>
 import seaborn as sb
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -84,19 +84,15 @@ import matplotlib.pyplot as plt
 supps = pd.read_csv("supplements.csv")
 
 supps = supps.dropna()
-
-print(supps)
-</code>
+</code></pre>
 			
 
 
 <h2 >Question 1</h2>
 
 <p>
-In order to check different product's bang for buck we need to establish what bang for buck means in terms of our variables. A good metric for the amount of a product is servings, because when you boil it down the number of servings is the number of times you can "use" a product. /n
-	Now the saying bang for buck (BFB) refers to how much money you spend to get a certain amount of something. If you spend a lot of money but get little of something the BFB is low, and when you spend little money but get a lot of something BFB is high, so basically the inverse of price per serving. 
-	
-</p>
+In order to check different product's bang for buck we need to establish what bang for buck means in terms of our variables. A good metric for the amount of a product is servings, because when you boil it down the number of servings is the number of times you can "use" a product.</p>
+<p>Now the saying bang for buck (BFB) refers to how much money you spend to get a certain amount of something. If you spend a lot of money but get little of something the BFB is low, and when you spend little money but get a lot of something BFB is high, so basically the inverse of price per serving. </p>
 
 <p></p>
 
